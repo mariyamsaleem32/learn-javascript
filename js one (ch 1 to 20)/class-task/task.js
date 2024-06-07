@@ -53,7 +53,7 @@ document.write("<h2>fruits name</h2>");
  document.write("<ol>");
 for (let i = 0; i <= 5; i++) {
     document.write("<li>"+fruits[i]+"</li> <br>");
-/}
+}
 
 // question 10
 let colorName = ["red","green","pink","orange","black","yellow","white"];
