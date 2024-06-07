@@ -18,7 +18,7 @@ let order = 5;
 let store_name = "hiniya Clothing.com";
 document.write("<h1>"+Visitor_name+" "+"ordered"+" "+order+Product_title+" "+"from"+" "+store_name+ "</h1>");
  
-                                                    //VARIABLE NAMES: LEGAL & ILLEGAL
+                         //VARIABLE NAMES: LEGAL & ILLEGAL
 //question no:1
 //a.Declare 3 variables in one statement:
 var variable1, variable2, variable3;
