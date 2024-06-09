@@ -50,5 +50,7 @@ alert(num);*/
  alert(result);*/            //answer will be -2
 
 
- //ch Math expressions: Eliminating ambiguit
+ //ch Math expressions: Eliminating ambiguity
 console.log(((2+2)*2)-2*2);   //answer will be 4
+
+
