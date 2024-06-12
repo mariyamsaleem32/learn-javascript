@@ -262,3 +262,4 @@ var yearsRemaining = maxAge - currentAge;
 var snacksPerLifetime = yearsRemaining * 365 * amountPerDay;
 // Output the result
 document.write("You will need " + snacksPerLifetime + " " + favoriteSnack + " to last you until the ripe old age of " + maxAge + ".");
+
