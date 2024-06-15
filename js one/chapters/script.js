@@ -162,6 +162,7 @@ else{
 } */
 // we can also use if multi times but else will only work with nearest if not work with first if 
 
+/*
 var studentName = "mariyam";
 var dairyMilk = "chocolete";
 var lays = "chips";
@@ -170,4 +171,16 @@ alert("she likes"+" "+dairyMilk);
 }
  if (studentName === "hina") {
     alert("she likes"+" "+lays);
-}
+}*/
+ 
+/*var a = 3;
+var b = 5;
+var c = a + b;  // 3 + 5 = 8
+var d = 8;
+var answer = "good"
+if (c === d) {
+console.log(answer);
+}*/
+
+
+    
