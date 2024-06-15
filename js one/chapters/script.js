@@ -139,3 +139,15 @@ console.log(Number(getNumber) + typeof getUserName);
 */
 
 
+//Concatenating text strings
+var message = "Thanks, ";
+var userName = "mariyam";
+var banger = "!";
+alert(message + userName + banger);
+
+//also do like this
+ var message = "Thanks, ";
+ var userName = "Susan";
+ var banger = "!";
+ var customMess = message + userName + banger;
+ alert(customMess);
