@@ -173,7 +173,8 @@ alert("she likes"+" "+dairyMilk);
     alert("she likes"+" "+lays);
 }*/
  
-/*var a = 3;
+/*
+var a = 3;
 var b = 5;
 var c = a + b;  // 3 + 5 = 8
 var d = 8;
@@ -182,5 +183,15 @@ if (c === d) {
 console.log(answer);
 }*/
 
+/*
+var courseName = prompt("Enter your course nmae");
+if (courseName === "web development" || courseName === "graphic designing" || courseName === "flutter" ) {
+alert("you are inrolled in this course");
+}
+ else {
+    alert("you are not inrolled in this course");
+  // it is or operator
+ }
+ */
 
-    
+ 
