@@ -1,4 +1,4 @@
-// ch varables for string 
+                                                        // ch varables for string 
 
 /*let firstName = "mariyam";
 let lastName = "saleem";
@@ -11,7 +11,7 @@ document.write("fullName:"+fullName);*/
 console.log("student name"+ " " + studentName);*/ //it is undefined
 
 
-// ch varables for numbers 
+                                                            // ch varables for numbers 
 /* let num1 = 6;
  let num2 = 8;
  let result = num1+num2;
@@ -24,7 +24,7 @@ console.log("student name"+ " " + studentName);*/ //it is undefined
  //onsole.log(currentNum+10+Number(myNum)); //change to number answer 36
 
 
- // ch Math expressions Familiar operators
+                                                    // ch Math expressions Familiar operators
 // alert(10/2);     //divition
 // alert(10%3);   //module
 
@@ -37,7 +37,7 @@ var newNum = originalNum - 7;
 console.log(newNum); */         //now answer will be 16
 
 
-//ch Math expressions: Unfamiliar operators
+                                                        //ch Math expressions: Unfamiliar operators
 /* 
 var num = 10;
 alert(num);*/
@@ -67,7 +67,7 @@ alert(num);*/
  */
 
 
- //ch Math expressions: Eliminating ambiguity
+                                                        //ch Math expressions: Eliminating ambiguity
 //console.log( 5 * 2 - ((2 + 2)* 2) - 2 * 4);   //answer will be -6
 
 
@@ -83,7 +83,20 @@ alert(num);*/
  */
 
 
-//if...else and else if statements
+
+/*var getNumber = prompt("Enter your number");
+console.log(typeof getNumber);  
+// answer is string becuse I do'nt use + or parseInt before prompt
+var getNumber = parseInt(prompt("Enter your number"));
+console.log(typeof getNumber);    //answer is number
+// you can also do it
+var getNumber = prompt("Enter your number");
+var getUserName = prompt("Enter your name");
+console.log(Number(getNumber) + typeof getUserName); */
+
+
+
+                                                        //if...else and else if statements
 
 /*
 var studentName = prompt("Enter your name");
@@ -126,15 +139,35 @@ if (salary === amountOne) {
     console.log("I don't know about your status" + " " + studentName); 
 }*/
 
-/*
-var getNumber = prompt("Enter your number");
-console.log(typeof getNumber);  
-// answer is string becuse I do'nt use + or parseInt before prompt
-var getNumber = parseInt(prompt("Enter your number"));
-console.log(typeof getNumber);    //answer is number
-// you can also do it
-var getNumber = prompt("Enter your number");
-var getUserName = prompt("Enter your name");
-console.log(Number(getNumber) + typeof getUserName); 
+/*var flag = true;
+if (flag) {
+console.log("It is raining!");
+}
+else{
+    console.log("else is running!");  
+}
 */
+/*
+var studentName = "mariyam";
+var dairyMilk = "chocolete";
+var lays = "chips";
+if (studentName === "mariyam") {
+alert("she likes"+" "+dairyMilk);
+}
+ if (studentName === "hina") {
+    alert("she likes"+" "+lays);
+}
+else{
+    alert("she likes nothing");
+} */
+// we can also use if multi times but else will only work with nearest if not work with first if 
 
+var studentName = "mariyam";
+var dairyMilk = "chocolete";
+var lays = "chips";
+if (studentName === "mariyam") {
+alert("she likes"+" "+dairyMilk);
+}
+ if (studentName === "hina") {
+    alert("she likes"+" "+lays);
+}
