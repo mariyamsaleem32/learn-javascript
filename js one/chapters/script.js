@@ -194,4 +194,128 @@ alert("you are inrolled in this course");
  }
  */
 
+/*  if (!false) 
+{
+    console.log("hello");
+ }*/
+/*
+var skill = prompt("Enter your skill"); 
+var exp = +prompt("Enter your exp");
+var city = prompt("Enter your city");
+if((skill === "javascript" && exp > 2) || city === "karachi" ){
+  alert("hired");
+}
+else{
+    alert("sorry! you are not hired");
+}*/
+
+                                                        //Arrays
+/*
+var arr = ["1","2","3","4"];
+console.log(arr[1]);
+arr[4] ="5";
+arr[5] = "6";
+console.log(arr);
+*/
+
+                                            //Adding and removing elements 
+ /*                                           
+var arr = ["sameena","hina","zunera","amna"];
+console.log(arr);
+arr.pop();
+console.log(arr);
+arr.push("rabiya","iqra");
+console.log(arr);
+*/                             //works from last
+/*                                    
+var arr = ["sameena","hina","zunera","amna"];
+console.log(arr);
+arr.shift();
+console.log(arr);
+arr.unshift("rabiya","iqra");
+console.log(arr);
+*/                                     //works from start
+
+                                        //Removing, inserting, and extracting elements
+// var students = ["fatima","hina","zunera","amna","usra"];
+// console.log(students);
+// students.splice(2,2,"zoya","asma");   // start from 2nd index to 3rd
+// console.log(students);
+
+// var pets = ["dog", "cat", 57,"fly", "bug", "alima", false];
+// console.log(pets.slice(1, 5));
+// console.log(pets.slice(5));
+
+/*
+var word = prompt("Enter word");
+var reverse = "";
+
+for (let i = word.length - 1; i >= 0; i--) {
+     reverse += word[i];
+}
+
+if (word === reverse) {
+    console.log("It's a plindrome");
+}
+else{
+    console.log("It's not a plindrome");
+}*/
+
+/*
+var arr = [11, 22, 83, 40, 55, 66, 78,10]
+var min = arr[0];
+
+for (let i = 0; i < arr.length; i++) {
+ if (min > arr[i]) {
+       min = arr[i]
+ }
+}
+console.log(min);*/
+
+var pakistaniCities = "karachi";
+for (let i = 0; i < pakistaniCities.length; i++) {
+    console.log(pakistaniCities[i]);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
+
+
+
+
+
+
+
