@@ -317,6 +317,27 @@ console.log(min);*/
 // }
 // console.log(multiplication(5,8));
 
+// function square(a)
+// {
+//     return a * a;
+// }
+// console.log(square(7));
+// console.log(square(2));
 
+        //convert fahrenheit to celsius
+// function fahrenheitToCelsius(fahrenheit)
+// {
+//     return(5/9) *(fahrenheit - 32);
+// }
+// console.log(fahrenheitToCelsius(77));
 
-
+function factorial(n)
+{
+if(n === 0 || n === 1)
+{
+  return 1;
+} else {
+    return n * factorial(n - 1);
+}
+}
+console.log(factorial(3));
