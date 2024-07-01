@@ -194,4 +194,36 @@ alert("you are inrolled in this course");
  }
  */
 
- 
+                                                                    //for loops
+// var cleanestCities = ["Cheyenne", "Santa Fe", "Tucson", "Great Falls", "Honolulu"];
+// var cityToCheck = cleanestCities[i];
+// for (var i = 0; i <= 4; i++) {
+//     // loop body
+// }
+// if (cityToCheck === cleanestCities[i]) {
+//     alert("It's one of the cleanest cities");
+// }
+                      
+                                        // Getting the current date and time
+// var dayNames = ["sun","monday","tuesday","wednesday","tharsday","friday","saturday"]
+// let now = new Date();
+// let theDay = now.getDay();
+// let nameOfToday = dayNames[theDay];
+// console.log(nameOfToday);
+
+
+                                                                        //Functions
+// function myFunction(){
+//     console.log("hello world");
+//     console.log("I love javascript");
+// }
+// myFunction();
+// myFunction();
+// myFunction();
+
+function myFunction(a,b){
+    console.log(a+b);
+}
+myFunction(4,1);
+myFunction(8,7);
+myFunction(4,7);
