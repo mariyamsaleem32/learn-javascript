@@ -293,22 +293,29 @@ console.log(min);*/
 // myFunction(3,16);
 // myFunction(6,6);
 
-function sum(x,y){
-s = x+y;
-return s;
-}
-var value = sum(5,6);
-console.log(value);
-var value = sum(4,9);
-console.log(value);
+// function sum(x,y){
+// s = x+y;
+// return s;
+// }
+// var value = sum(5,6);
+// console.log(value);
+// var value = sum(4,9);
+// console.log(value);
 
+// function sum(x,y)
+// {
+//     s = x+y;
+//     console.log("before");
+//     return s;
+//     console.log("after");
+//     }
+// console.log(sum(3,4));
 
-
-
-
-
-
-
+// function multiplication(p1, p2)
+// {
+//     return p1*p2
+// }
+// console.log(multiplication(5,8));
 
 
 
