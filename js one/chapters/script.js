@@ -342,4 +342,8 @@ console.log(min);*/
 // }
 // console.log(factorial(4));
 
-const additionofNum = (a,b)                                                        
+const additionofNum = (a,b)   =>
+{
+    return a+b;
+}                                                     
+console.log(additionofNum(56,87));
