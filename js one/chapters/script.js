@@ -342,8 +342,14 @@ console.log(min);*/
 // }
 // console.log(factorial(4));
 
-const additionofNum = (a,b)   =>
-{
-    return a+b;
-}                                                     
-console.log(additionofNum(56,87));
+// const additionofNum = (a,b)   =>
+// {
+//     return a+b;
+// }                                                     
+// console.log(additionofNum(56,87));
+
+// const word = ()   =>
+// {
+//   console.log("hello world");
+// }                                                     
+// word();
